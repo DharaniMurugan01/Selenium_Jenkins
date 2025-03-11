@@ -33,6 +33,7 @@
 </goals>
 <configuration>
 <mainClass>com.kiot.Sampletest</mainClass> 
+<mainClass>com.kiot.Views</mainClass> 
 </configuration>
 </execution>
 </executions>
