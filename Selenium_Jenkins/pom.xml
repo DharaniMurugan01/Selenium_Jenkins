@@ -34,6 +34,7 @@
 <configuration>
 <mainClass>com.kiot.Sampletest</mainClass> 
 <mainClass>com.kiot.Leafground</mainClass>
+<mainClass>com.kiot.Bstackdemo</mainClass>
 </configuration>
 </execution>
 </executions>
