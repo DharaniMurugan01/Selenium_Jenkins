@@ -33,7 +33,6 @@
 </goals>
 <configuration>
 <mainClass>com.kiot.Sampletest</mainClass> 
-<mainClass>com.kiot.Views</mainClass> 
 <mainClass>com.kiot.Leafground</mainClass>
 </configuration>
 </execution>
