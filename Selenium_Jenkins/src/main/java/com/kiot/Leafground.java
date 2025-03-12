@@ -1,6 +1,8 @@
 package com.kiot;
 
 import java.time.Duration;
+import java.util.ArrayList;
+import java.util.Collections;
 import java.util.List;
 
 import org.openqa.selenium.By;
@@ -31,9 +33,14 @@ public class Leafground {
         for(WebElement lis:list1) {
         	System.out.println(lis.getText());
         }
+        List<String> op=new ArrayList<>();
+        for(WebElement e:list2) {
+        	op.add(e.getText());
+        }
+        Collections.sort(op);
+        System.out.println(op);
         drop.deselectByIndex(0);
         drop.deselectAll();
         driver.quit();
 	}
-
 }
