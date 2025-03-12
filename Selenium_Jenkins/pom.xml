@@ -19,12 +19,6 @@
 <artifactId>exec-maven-plugin</artifactId>
 <version>3.1.0</version>
 </dependency>
-	<dependency>
-    <groupId>io.github.bonigarcia</groupId>
-    <artifactId>webdrivermanager</artifactId>
-    <version>5.6.0</version> <!-- Check for the latest version -->
-</dependency>
-
 </dependencies>
 <build>
 <plugins>
@@ -40,6 +34,7 @@
 <configuration>
 <mainClass>com.kiot.Sampletest</mainClass> 
 <mainClass>com.kiot.Views</mainClass> 
+<mainClass>com.kiot.Leafground</mainClass>
 </configuration>
 </execution>
 </executions>
