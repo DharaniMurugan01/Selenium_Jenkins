@@ -19,6 +19,11 @@
 <artifactId>exec-maven-plugin</artifactId>
 <version>3.1.0</version>
 </dependency>
+	<dependency>
+		<groupId>expleo</groupId>
+		<artifactId>selenium</artifactId>
+		<version>0.0.1-SNAPSHOT</version>
+	</dependency>
 </dependencies>
 <build>
 <plugins>
