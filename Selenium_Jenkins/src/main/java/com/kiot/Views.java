@@ -14,8 +14,8 @@ import io.github.bonigarcia.wdm.WebDriverManager;
 public class Views {
 
 	public static void main(String[] args) throws InterruptedException {
-		 WebDriverManager.edgedriver().setup();
-	     WebDriver driver = new EdgeDriver();
+		 
+	     WebDriver driver = new ChromeDriver();
 		driver.manage().window().maximize();
 		driver.get("https://configureselenium.blogspot.com/2020/11/selenium-tutorials.html");
 		WebElement ele2=driver.findElement(By.cssSelector("#Stats1_totalCount"));
