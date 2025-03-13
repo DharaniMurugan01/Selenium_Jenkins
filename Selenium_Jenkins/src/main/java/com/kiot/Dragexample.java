@@ -17,6 +17,7 @@ public class Dragexample {
 		ac.dragAndDrop(src, dest).build().perform();
 		WebElement text=driver.findElement(By.xpath("//p[text()='Dropped!']"));
 		System.out.println(text.getText());
+		
 		driver.quit();
 	}
 }

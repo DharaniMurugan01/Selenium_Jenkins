@@ -39,6 +39,8 @@
 <mainClass>com.kiot.Dragexample</mainClass>
 <mainClass>com.kiot.SelectExample</mainClass>
 <mainClass>com.kiot.Jsexe</mainClass>
+<mainClass>com.kiot.Omayo</mainClass>
+<mainClass>com.kiot.Practice2</mainClass>
 </configuration>
 </execution>
 </executions>
