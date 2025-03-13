@@ -36,6 +36,7 @@
 <mainClass>com.kiot.Leafground</mainClass>
 <mainClass>com.kiot.Bstackdemo</mainClass>
 <mainClass>com.kiot.Relativeloc</mainClass>
+<mainClass>com.kiot.Dragexample</mainClass>
 </configuration>
 </execution>
 </executions>
