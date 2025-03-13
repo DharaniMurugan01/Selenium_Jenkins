@@ -9,13 +9,14 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 
-public class Bstackdemo {
+public class Firstdrop {
 
 	public static void main(String[] args) {
 		
 		WebDriver driver=new ChromeDriver();
 		driver.manage().window().maximize();
 		//driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
+		//use list iteration by option
 		driver.get("https://bstackdemo.com/");
         driver.findElement(By.xpath("//select")).click();
         List<WebElement> all=driver.findElements(By.cssSelector("select option"));
@@ -27,6 +28,8 @@ public class Bstackdemo {
         		break;
         	}
         }
+        WebElement op = driver.findElement(By.xpath("//option[text()='Highest to lowest']"));
+        op.click();
         driver.quit();
 	}
 

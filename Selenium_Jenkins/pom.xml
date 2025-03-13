@@ -34,10 +34,11 @@
 <configuration>
 <mainClass>com.kiot.Sampletest</mainClass> 
 <mainClass>com.kiot.Leafground</mainClass>
-<mainClass>com.kiot.Bstackdemo</mainClass>
+<mainClass>com.kiot.Firstdrop</mainClass>
 <mainClass>com.kiot.Relativeloc</mainClass>
 <mainClass>com.kiot.Dragexample</mainClass>
 <mainClass>com.kiot.SelectExample</mainClass>
+<mainClass>com.kiot.Jsexe</mainClass>
 </configuration>
 </execution>
 </executions>

@@ -18,16 +18,17 @@ public class Jsexe {
 		
 		driver.get("https://bstackdemo.com/");
 		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
-//		WebElement op2=driver.findElement(By.xpath("//Select"));
-//         JavascriptExecutor js=(JavascriptExecutor)driver;
-//         js.executeScript("arguments[0].value='highestprice'", op2);
+		WebElement op2=driver.findElement(By.xpath("//Select"));
+         JavascriptExecutor js=(JavascriptExecutor)driver;
+         js.executeScript("arguments[0].value='highestprice'", op2);
+         System.out.println("Sucessfully selected");
        //  driver.findElement(By.xpath("//Select")).sendKeys("highestprice");
-		WebElement ele=driver.findElement(By.xpath("//select"));
-		ele.click();
-		Actions ac=new Actions(driver);
-		ac.moveToElement(ele).perform();
-		WebElement co=driver.findElement(By.xpath("//option[text()='Lowest to highest']"));
-		co.click();
+//		WebElement ele=driver.findElement(By.xpath("//select"));
+//		ele.click();
+//		Actions ac=new Actions(driver);
+//		ac.moveToElement(ele).perform();
+//		WebElement co=driver.findElement(By.xpath("//option[text()='Lowest to highest']"));
+//		co.click();
         driver.quit();
 	}
 
