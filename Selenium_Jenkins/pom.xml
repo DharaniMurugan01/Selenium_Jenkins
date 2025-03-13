@@ -37,6 +37,7 @@
 <mainClass>com.kiot.Bstackdemo</mainClass>
 <mainClass>com.kiot.Relativeloc</mainClass>
 <mainClass>com.kiot.Dragexample</mainClass>
+<mainClass>com.kiot.SelectExample</mainClass>
 </configuration>
 </execution>
 </executions>

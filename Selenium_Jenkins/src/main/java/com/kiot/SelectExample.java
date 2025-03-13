@@ -24,5 +24,6 @@ public class SelectExample {
         Boolean mul=drop.isMultiple();
         System.out.println(mul);
         drop.selectByIndex(1);
+        driver.quit();
 	}
 }
