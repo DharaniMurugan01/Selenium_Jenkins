@@ -27,6 +27,7 @@ public class Practice2 {
         else {
         	System.out.println("not match");
         }
-	}
+        driver.quit();
+        }
 	
 }
