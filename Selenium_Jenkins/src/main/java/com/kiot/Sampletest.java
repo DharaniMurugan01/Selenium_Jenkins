@@ -56,6 +56,7 @@ public class Sampletest {
         String text = element.getText();
         System.out.println("Text: " + text);
         System.out.println("Hello");
+        System.out.println("Welcome");
         driver.quit();
 	}
 }
