@@ -25,7 +25,7 @@ public class Jsexe {
        //  driver.findElement(By.xpath("//Select")).sendKeys("highestprice");
 //		WebElement ele=driver.findElement(By.xpath("//select"));
 //		ele.click();
-//		Actions ac=new Actions(driver);
+//		Actions ac.ew Actions(driver);
 //		ac.moveToElement(ele).perform();
 //		WebElement co=driver.findElement(By.xpath("//option[text()='Lowest to highest']"));
 //		co.click();

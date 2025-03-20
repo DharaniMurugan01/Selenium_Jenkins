@@ -55,6 +55,7 @@ public class Sampletest {
         WebElement element = driver.findElement(By.xpath("//*[@id=\"root\"]/div[4]/div[2]/nav/ul/li[1]/a"));
         String text = element.getText();
         System.out.println("Text: " + text);
+        System.out.println("Hello");
         driver.quit();
 	}
 }
