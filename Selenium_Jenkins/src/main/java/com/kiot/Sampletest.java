@@ -57,6 +57,7 @@ public class Sampletest {
         System.out.println("Text: " + text);
         System.out.println("Hello");
         System.out.println("Welcome");
+        System.out.println("hello");
         driver.quit();
 	}
 }
